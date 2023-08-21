@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top  navbar-expand-lg">
+        <div class="container-fluid p-3">
+            <div class="d-flex flex-column">
+                <a class="navbar-brand  shadow" href="#">TrekTide </a>
+                <h6 class="bottomLine text-center ">easy travelling...</h6>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link " aria-current="#contact" href="#">Contact us</a>
+                    <a class="nav-link" href="#packages">Packages</a>
+                    <a class="nav-link" href="#faq">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Banner -->
+
+    <div class="banner text-center">
+
+        <div class="p-5 ">
+            <h1 class="m-5 fw-bolder">Travelling never been so easy</h1>
+            <h3 class="mb-4 w-bold">Contact us</h3>
+            <div class="col-md-4 m-auto">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput1" placeholder="Your name">
+                    <label for="floatingInput1">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingName" placeholder="name@example.com">
+                    <label for="floatingName">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="floatingInput3" placeholder="9876543210">
+                    <label class="label" for="floatingInput3">Phone no.</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text " class="form-control" style="height: 100px" id="floatingInput3"
+                        placeholder="Your message"></textarea>
+                    <label for="floatingInput3">Message</label>
+                </div>
+                <button class=" btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <!-- Counter -->
+    <section id="contact">
+        <div class="counter-container p-5">
+
+            <div class="row m-5">
+
+                <div class="four col-md-3 p-3">
+                    <div class="counter-box colored">
+                        <i class="fa fa-user fa-beat"></i>
+                        <span class="counter">18427</span>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="four col-md-3 p-3">
+                    <div class="counter-box">
+                        <i class="fa fa-people-group fa-beat"></i>
+                        <span class="counter">3275</span>
+                        <p>Registered Members</p>
+                    </div>
+                </div>
+                <div class="four col-md-3 p-3">
+                    <div class="counter-box">
+                        <i class="fa  fa-location-dot fa-beat"></i>
+                        <span class="counter">486</span>
+                        <p>Available Locations</p>
+                    </div>
+                </div>
+                <div class="four col-md-3 p-3">
+                    <div class="counter-box">
+                        <i class="fa  fa-building fa-beat"></i>
+                        <span class="counter">83</span>
+                        <p>Connected Agencies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Counter -->
+
+    <!-- Packages -->
+    <section id="packages">
+        <div class="container-fluid packages p-5 text-center">
+            <h2 class="fw-bolder fs-1 text-white">TRAVEL PACKAGES</h2>
+            <div class="row m-md-5">
+                <div class="card p-0 col-md-3 m-md-5 my-3">
+                    <img src="./utils/maldives-1993704_640.jpg" class="card-img-top h-75" alt="first package">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Friends and Family</h5>
+                        <p class="card-text">Create cherished memories with our Family and Friends Travel Package, where
+                            adventure and bonding intertwine.</p>
+                        <a href="#" class="btn  mt-4">Book Now</a>
+                    </div>
+                </div>
+                <div class="card p-0  col-md-3 m-md-5 my-3">
+                    <img src="./utils/palace-530055_640.jpg" class="card-img-top h-75" alt="second package">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Partner</h5>
+                        <p class="card-text">Embark on a journey of togetherness and exploration with our captivating
+                            Partner Travel Package.</p>
+                        <a href="#" class="btn mt-4">Book Now</a>
+                    </div>
+                </div>
+                <div class="card  p-0 col-md-3 m-md-5 my-3">
+                    <img src="./utils/travel-1749508_640.jpg" class="card-img-top h-75" alt="third package">
+                    <div class="card-body ">
+                        <h5 class="card-title fw-bolder">Solo Trip</h5>
+                        <p class="card-text">Discover the world on your terms with our empowering Solo Travel Package.
+                        </p>
+                        <a href="#" class="btn mt-4">Book Now</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Packages -->
+
+    <!-- Gallery -->
+
+    <section>
+
+
+        <div class="text-center gallery p-5">
+            <h1 class="fw-bolder fs-1 text-white">MEMORIES</h1>
+            <h6 class="fw-bold">from customer's gallery</h6>
+            <div class="container page-top">
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                class="zoom img-fluid" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="fancybox" rel="ligthbox">
+                            <img src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                class="zoom img-fluid " alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+
+    <!-- testimonials -->
+    <div class="container-fluid testimonial-container text-center p-5">
+
+        <div class="row g-2 d-flex justify-content-center ">
+            <h1 class="fs-1 fw-bolder my-5 text-white">What they say</h1>
+            <div class="col-md-3 ">
+                <div class="card testimonial p-3 text-center">
+
+                    <div class="user-image">
+
+                        <img src="./utils/pexels-pixabay-220453 (1).jpg" class="testImg w-25">
+
+                    </div>
+
+                    <div class="user-content ">
+
+                        <h5 class="mb-0">Bruce Hardy</h5>
+                        <span>Software Developer</span>
+                        <p>"From seamless bookings to awe-inspiring adventures, your travel packages delivered memories
+                            that will last a lifetime."</p>
+
+                    </div>
+
+                    <div class="ratings shadow-sm">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card testimonial p-3 text-center ">
+
+                    <div class="user-image">
+
+                        <img src="./utils/pexels-creation-hill-1681010.jpg" class="testImg w-25">
+
+                    </div>
+
+                    <div class="user-content">
+
+                        <h5 class="mb-0">Mark Smith</h5>
+                        <span>Web Developer</span>
+                        <p>"Our family vacation was a dream come true every detail was thoughtfully taken care of,
+                            ensuring a stress-free and
+                            joyful journey."</p>
+
+                    </div>
+
+                    <div class="ratings shadow-sm">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card testimonial p-3 text-center">
+
+                    <div class="user-image ">
+
+                        <img src="./utils/pexels-andrea-piacquadio-774909 (1).jpg" class="testImg w-25">
+
+                    </div>
+
+                    <div class="user-content ">
+
+                        <h5 class="mb-0">Veera Duncan</h5>
+                        <span>Software Architect</span>
+                        <p>"The perfect blend of relaxation and exploration! Your team made our couple's retreat an
+                            exceptional escape from the
+                            ordinary."</p>
+
+                    </div>
+
+                    <div class="ratings shadow-sm">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- testimonials -->
+
+    <!-- FAQs -->
+    <section id="faq">
+        <div class="p-5 faq">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder fs-1 text-white"> Frequently asked questions</h1>
+            </div>
+            <div>
+                <div class="accordion  mx-md-5" id="accordionExample">
+                    <div class="card faqCard mx-md-5 mt-2">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true">
+                            <span class="title">Do you provide assistance with visa applications and requirements?
+                            </span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Yes, we can provide guidance and support for visa applications if needed.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card faqCard  mx-md-5 mt-2">
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="title">How do you ensure the safety of travelers during the pandemic?</span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                            <div class="card-body">
+                                We implement enhanced sanitation practices, social distancing measures, and adhere to
+                                local regulations to prioritize
+                                the safety of travelers.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card faqCard mx-md-5 mt-2">
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false">
+                            <span class="title">Is travel insurance included in the packages?</span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                            <div class="card-body">
+                                While basic travel insurance might be included in some packages, we highly recommend
+                                purchasing comprehensive travel
+                                insurance to cover unforeseen circumstances and ensure your peace of mind.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card faqCard mx-md-5 mt-2">
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#collapsefour"
+                            aria-expanded="false">
+                            <span class="title">What's the best time to visit the destination I'm interested in?</span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapsefour" class="collapse" data-parent="#accordionExample">
+                            <div class="card-body">
+                                The best time to visit varies by destination. Our travel experts can provide you with
+                                information on optimal travel
+                                times.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card faqCard mx-md-5 mt-2">
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="false">
+                            <span class="title">What's the baggage allowance for flights included in the package?</span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapseFive" class="collapse" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Baggage allowances depend on the airline and the package. We'll provide you with this
+                                information upon booking.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card faqCard mx-md-5 mt-2">
+                        <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="false">
+                            <span class="title">Do I need to provide a negative COVID-19 test result before
+                                traveling?</span>
+                            <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        </div>
+                        <div id="collapseSix" class="collapse" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Document requirements vary by destination. We'll provide you with the latest travel
+                                advisories
+                                and requirements.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5 ">
+                    <div class="mb-5 d-flex justify-content-center gap-5">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-2x text-white"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter  fa-2x text-white"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g  fa-2x text-white"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in  fa-2x text-white"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram  fa-2x text-white"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest  fa-2x text-white"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+            <a class="text-decoration-none text-white" href="https://aryansarang.github.io/My-Portfolio/"> Aryan
+                Sarang</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- bootstrap links -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
