@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-weight: 400;
+    /* font-weight: 200; */
     overflow-x: hidden;
     position: relative;
     font-family: "" Centra", sans-serif !important";
@@ -76,8 +76,11 @@ select:focus {
 }
 
 .scrolled-nav {
-    height: 11% !important;
-    line-height: 11% !important;
+    /* height: 11% !important; */
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    /* line-height: 11% !important; */
+    opacity: 90%;
 
 }
 
@@ -88,14 +91,14 @@ select:focus {
 }
 
 .bottomLine {
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 .nav-link {
     color: white;
     font-size: larger;
-    font-weight: 600;
-    font-family: cursive;
+    font-weight: 300;
+    font-family: fantasy;
 }
 
 .navbar-nav {
@@ -107,7 +110,7 @@ select:focus {
 .banner {
     background-image: url(../utils/island-3542290_1280\ \(1\).jpg);
     background-size: cover;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 .form-control {
@@ -137,7 +140,7 @@ select:focus {
 
 .counter-container {
     background-color: #9867C5;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 .counter-box {
@@ -154,7 +157,7 @@ select:focus {
     padding: 0;
     color: #909090;
     font-size: 18px;
-    font-weight: 500
+    font-weight: 200
 }
 
 .counter-box i {
@@ -166,7 +169,7 @@ select:focus {
 .counter {
     display: block;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 200;
     color: #666;
     line-height: 28px
 }
@@ -187,7 +190,7 @@ select:focus {
 .packages {
     color: #D7D7D8;
     background-color: #9867C5;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 .card {
@@ -259,7 +262,7 @@ select:focus {
 
 .gallery {
     background-color: #BE93D4;
-    font-family: cursive;
+    font-family: fantasy;
     color: #D7D7D8;
 }
 
@@ -268,17 +271,20 @@ select:focus {
 /* testimonials */
 .testimonial-container {
     background-color: #9867C5;
-    font-family: cursive;
+    font-family: fantasy;
+
 }
 
 .testimonial {
     background-color: #BE93D4;
     color: white;
+    font-family: serif;
 }
 
 .user-content p {
     margin-top: 5px;
-    font-size: 12px;
+    /* font-size: 10px; */
+
 }
 
 
@@ -295,7 +301,7 @@ select:focus {
 /* FAQs */
 .faq {
     background-color: #9867C5;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 
@@ -313,11 +319,13 @@ select:focus {
 .card-header {
     cursor: pointer;
     border-bottom: none;
+
 }
 
 .faqCard {
     background-color: #BE93D4;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: serif;
 }
 
 .card-body {
@@ -334,7 +342,7 @@ select:focus {
 
 .page-footer {
     background-color: #4D006D;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 /* footer */
